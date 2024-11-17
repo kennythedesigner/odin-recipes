@@ -136,10 +136,36 @@
 .intro {
   word-break: normal;
 }
-.quiche-prep-content{
+/* Grid container */
+.quiche-prep-content {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1.5rem;
+  grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+  gap: 1.5rem; /* Spacing between grid items */
+  background-color: #fff; /* Add background for the box */
+  border: 1px solid #e0e0e0; /* Border around the grid */
+  border-radius: 8px; /* Rounded corners */
+  padding: 1rem; /* Padding inside the box */
+  margin: 1.5rem auto; /* Center the grid */
+  max-width: 600px; /* Limit width */
 }
+
+/* Individual grid items (label + value pairs) */
+.prep-time-item {
+  display: flex; /* Align label and value horizontally */
+  justify-content: space-between; /* Push label and value to edges */
+  align-items: center; /* Vertically align content */
+}
+
+/* Label styling */
+.prep-time-label {
+  font-weight: bold; /* Bold text for labels */
+  color: #333;
+}
+
+/* Value styling */
+.prep-time-value {
+  color: #555;
+}
+
 
