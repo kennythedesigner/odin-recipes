@@ -1,3 +1,10 @@
+/* Apply border-box globally */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* So what does this do^? This removes all default borders before the page loads. Border box helps with formatting and responsiveness. */
 /* Breakfast CSS.*/
 
 /* Scrambled Eggs */
