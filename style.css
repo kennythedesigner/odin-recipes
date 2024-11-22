@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0; /* Code from chatgpt*/
+  padding: 0; /*code from chatgpt*/
+  background-color: #f9f9f9;
+}
+h1 {
+  font-size: 1.75rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #333;
+  color: whitesmoke;
+}
+
+/* 
+
+ALL OF THIS CODE IS FROM CHATGPT. ASKED QUESTION ON 11/19/2024. Wanted to learn specific card styling. have not learned transitions yet */
+
+
+
+
+.website-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 1rem;
+  background-color: #e0e0e0;
+}
+/* card styling */
+.website-section a {
+  display: block; /*link behaves like a block element */
+  width: 250px; /*fixed card with*/
+  background-color: white;
+  color: #333;
+  text-decoration: none;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1.15rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+
+}
+/* hover effect */
+.website-section a:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
