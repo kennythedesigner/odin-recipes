@@ -65,8 +65,9 @@ h1{
 }
 
 .quiche-prep-content {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 2rem;
   gap: 1em;
@@ -105,15 +106,123 @@ h1{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 15px;
+  padding: 10px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #B0C4CF;
-  
+  background-color: #097969;
 }
-.egg-main, a {
-  color: #333;
+/* Image */
+.egg-image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
 }
+
+.egg-image-container  .egg-image {
+  height: 500px;
+  width: 500px;
+}
+
+/* Hero section */
 .egg-hero {
+  display: flexbox;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #097969;
+  color: whitesmoke;
+}
+.egg-text{
   width: 489px;
   height: 135px;
+}
+
+/* Review Section */ 
+.scramble-review-section {
+  display: flex;
+  align-items: center;
+  background-color: #097968;
+  color: white;
+  gap: 10px;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*/ Prep Time */ 
+.egg-prep-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.egg-prep-content  .egg-prep-container{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2rem;
+  gap: 1em;
+  background-color: #f8f8f8;
+  border: 1px solid #e0e0e0e0;
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 1rem;
+} 
+
+.egg-ingredient-container {
+  display: flexbox;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2rem;
+  gap: 1em;
+  background-color: #f8f8f8;
+  border: 1px solid #e0e0e0e0;
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 1rem;
+}
+.egg-header-ingredients{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2rem;
+  gap: 1em;
+  background-color: #097968;
+  color: whitesmoke;
+  border: 1px solid #e0e0e0e0;
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 1rem;
+}
+.egg-directions-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2rem;
+  gap: 1em;
+  background-color: #097969;
+  color: whitesmoke;
+  border: 1px solid #e0e0e0e0;
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+/* Egg Cooking Directions */
+
+.egg-directions-container {
+  display: flexbox;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2rem;
+  gap: 1em;
+  background-color: #f8f8f8;
+  border: 1px solid #e0e0e0e0;
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 1rem;
 }
