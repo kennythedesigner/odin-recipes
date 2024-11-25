@@ -100,3 +100,20 @@ h1{
 /* Scrambled Eggs CSS*/
 
 /* Header CSS */
+.egg-main-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #B0C4CF;
+  
+}
+.egg-main, a {
+  color: #333;
+}
+.egg-hero {
+  width: 489px;
+  height: 135px;
+}
