@@ -9,6 +9,7 @@ body {
 
 /* Header CSS */
 
+/* I need to fix the global link color in this. Going to have to combine selectors */
 .top-header {
   display: flex;
   flex-direction: row;
@@ -23,8 +24,8 @@ body {
   justify-content: space-around;
   margin-left: 400px;
 }
-
-a{
+/* Fix this !! causing other colors to be white*/
+a {
   text-decoration: none;
   color: white;
   padding: 20px;
@@ -65,9 +66,7 @@ h1{
 }
 
 .quiche-prep-content {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 2rem;
   gap: 1em;
@@ -151,37 +150,28 @@ h1{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-*/ Prep Time */ 
+/*Prep Time */ 
 .egg-prep-content {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-
-.egg-prep-content  .egg-prep-container{
+  justify-content: space-evenly; /* Match waffle section */
+  align-items: flex-start; /* Ensure top alignment */
+  gap: 1em; /* Add consistent spacing between items */
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding: 2rem;
-  gap: 1em;
+  padding: 2rem; /* Same padding as waffle */
   background-color: #f8f8f8;
-  border: 1px solid #e0e0e0e0;
+  border: 1px solid #e0e0e0;
   border-radius: 8px;
-  padding: 2rem;
-  margin: 1rem;
-} 
-
-.egg-ingredient-container {
-  display: flexbox;
-  justify-content: space-between;
-  align-items: flex-start;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding: 2rem;
-  gap: 1em;
-  background-color: #f8f8f8;
-  border: 1px solid #e0e0e0e0;
-  border-radius: 8px;
-  padding: 2rem;
   margin: 1rem;
 }
+
+.egg-prep-container .prep-time-item {
+  display: flex;
+  justify-content: space-between; /* Spread labels and values */
+  align-items: center; /* Align vertically */
+}
+
+
+
 .egg-header-ingredients{
   display: flex;
   justify-content: space-between;
@@ -225,4 +215,158 @@ h1{
   border-radius: 8px;
   padding: 2rem;
   margin: 1rem;
+}
+
+/*Waffles CSS */
+
+.waffle-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #097968;
+  padding: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.waffle-title {
+  margin-left: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.waffles-image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.waffles-image-container .waffles-image {
+  height: 600px;
+  width: 600px;
+}
+
+.waffle-review-container .waffle-review-section {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: whitesmoke;
+}
+.waffle-prep-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2rem;
+  gap: 1em;
+  background-color: #f8f8f8;
+  border: 1px solid #e0e0e0e0;
+  border-radius: 8px;
+  margin: 1rem;
+}
+
+.waffle-hero-container {
+  display: flexbox;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 15px;
+  border: #e0e0e0bd solid  2.5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color:#097968;
+  color: whitesmoke;
+  border-radius: 10px;
+}
+
+
+#waffle-hero-blurb {
+  width: 489px;
+  height: 185px;
+}
+
+
+.waffle-ingredients-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f8f8;
+  border: 1px solid #e0e0e0e0;
+  overflow-wrap: break-word;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+
+.waffle-ingredients-header {
+  display: flex;
+  flex-direction: column;
+  background-color: #097968;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.step-label {
+  font-weight: 800;
+}
+.waffle-directions-header{
+  display: flex;
+  flex-direction: column;
+  background-color: #097968;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.waffle-directions-content{ 
+  display: flexbox;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f8f8;
+  border: 1px solid #e0e0e0e0;
+  overflow-wrap: break-word;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.toppings-header {
+  display: flex;
+  flex-direction: column;
+  background-color: #097968;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topping-container {
+  display: flexbox;
+  align-items: flex-start;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f8f8;
+  border: 1px solid #e0e0e0e0;
+  overflow-wrap: break-word;
+  margin: 10px;
+  border-radius: 8px
+}
+.toppings-blurb {
+  width: 489px;
+  height: auto;
+  padding: 5px;
+}
+
+footer{
+  display: flex;
+  padding: 20px;
+  background-color: #097969;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
