@@ -15,7 +15,7 @@ body {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: #2f4f4f;
+  background-color: #097969;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -38,61 +38,81 @@ h1{
 
 .quiche-hero {
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  padding: 10px;
-  background-color: #e0e0e039;
-}
-
-.quiche-image{
-  width: fit-content;
-  height: fit-content;
-  background-color: #e0e0e039;
-}
-.hero-intro {
-  word-wrap: wrap;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 1rem;
-}
-
-/* Review Section */
-
-.reviews-section {
-  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
-  gap: 10px;
-  padding: 5px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
 }
+.quiche-image-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+.quiche-image-container.quiche-image{
+  height: 600px;
+  width: 600px;
+}
+.quiche-hero-container {
+  display: flexbox;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 15px;
+  border: #e0e0e0bd solid  2.5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color:#097968;
+  color: whitesmoke;
+  border-radius: 10px;
+}
+
 
 .quiche-prep-content {
-
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 2rem;
   gap: 1em;
   background-color: #f8f8f8;
   border: 1px solid #e0e0e0e0;
   border-radius: 8px;
-  padding: 2rem;
   margin: 1rem;
 }
 
-.quiche-ingredients {
+.quichie-ingredients-header {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding: 15px;
-  color: #333;
+  background-color: #097968;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.quiche-directions-sections {
+.quiche-ingredients-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  padding: 1rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 400;
+  background-color: #f8f8f8;
+  border: 1px solid #e0e0e0e0;
+  overflow-wrap: break-word;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.quiche-direction-header {
+  display: flex;
+  flex-direction: column;
+  background-color: #097968;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -119,7 +139,7 @@ h1{
 }
 
 .egg-image-container  .egg-image {
-  height: 500px;
+  height: 550px;
   width: 500px;
 }
 
@@ -129,46 +149,43 @@ h1{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 5px;
+  padding: 0.7rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #097969;
   color: whitesmoke;
+  margin: 0.5rem;
+  border-radius: 8px;
+
 }
 .egg-text{
-  width: 489px;
-  height: 135px;
+  width: 650px;
 }
 
 /* Review Section */ 
+/*
 .scramble-review-section {
   display: flex;
   align-items: center;
   background-color: #097968;
   color: white;
-  gap: 10px;
-  padding: 20px;
+  padding: 1rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+* this is commented out since joined with the hero section/
 /*Prep Time */ 
-.egg-prep-content {
+.egg-prep-content{
   display: flex;
-  justify-content: space-evenly; /* Match waffle section */
-  align-items: flex-start; /* Ensure top alignment */
-  gap: 1em; /* Add consistent spacing between items */
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 1em;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding: 2rem; /* Same padding as waffle */
+  padding: 2rem;
   background-color: #f8f8f8;
   border: 1px solid #e0e0e0;
   border-radius: 8px;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
-.egg-prep-container .prep-time-item {
-  display: flex;
-  justify-content: space-between; /* Spread labels and values */
-  align-items: center; /* Align vertically */
-}
 
 
 
@@ -177,45 +194,61 @@ h1{
   justify-content: space-between;
   align-items: flex-start;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding: 2rem;
-  gap: 1em;
+  padding: 1rem;
   background-color: #097968;
   color: whitesmoke;
   border: 1px solid #e0e0e0e0;
   border-radius: 8px;
-  padding: 2rem;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 .egg-directions-header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding: 2rem;
-  gap: 1em;
+  padding: 1rem;
   background-color: #097969;
   color: whitesmoke;
   border: 1px solid #e0e0e0e0;
   border-radius: 8px;
-  padding: 2rem;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 /* Egg Cooking Directions */
 
-.egg-directions-container {
-  display: flexbox;
-  justify-content: space-between;
-  align-items: flex-start;
+.egg-ingredient-list{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding: 2rem;
-  gap: 1em;
   background-color: #f8f8f8;
-  border: 1px solid #e0e0e0e0;
+  border: #e0e0e0 solid 1px;
+  margin: 0.5rem;
   border-radius: 8px;
-  padding: 2rem;
-  margin: 1rem;
 }
+
+
+#ingredient-photo{
+  width: fit-content;
+  padding: 10px;
+  border-radius: 8px; 
+}
+
+.egg-directions-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0.9rem;  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f8f8;
+  border: #e0e0e0 solid 1px;
+  margin: 10px;
+  border-radius: 8px;
+}
+.egg-prep-time-label , .egg-step-label {
+  font-weight:600;
+}
+
+
 
 /*Waffles CSS */
 
@@ -278,20 +311,18 @@ h1{
 
 
 #waffle-hero-blurb {
-  width: 489px;
-  height: 185px;
+  width: 650px;
 }
 
 
 .waffle-ingredients-container {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 2rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f8f8f8;
   border: 1px solid #e0e0e0e0;
   overflow-wrap: break-word;
-  padding: 15px;
   margin: 10px;
   border-radius: 8px;
 }
@@ -367,6 +398,6 @@ footer{
   display: flex;
   padding: 20px;
   background-color: #097969;
-  color: #e0e0e0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

@@ -1,0 +1,130 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Chicken-Sandwich CSS*/
+
+.chicken-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #002e63;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.chicken-image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.chicken-image-container .chicken-image-content {
+  height: 500px;
+  width: 550px;
+}
+.chicken-hero-container {
+  display: flexbox;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #002e63;
+  color: white;
+  margin-left: 2px;
+  border-radius: 5px;
+}
+.chicken-hero-blurb {
+  width: 650px;
+}
+
+.chicken-prep-content {
+  display: flex;
+  justify-content: space-evenly; /* Match waffle section */
+  align-items: flex-start; /* Ensure top alignment */
+  gap: 1em; /* Add consistent spacing between items */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2rem; /* Same padding as waffle */
+  background-color: #f8f8f8;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin: 1rem;
+}
+
+.chicken-prep-container .chicken-prep-item {
+  display: flex;
+  justify-content: space-between; /* Spread labels and values */
+  align-items: center; /* Align vertically */
+}
+
+.chicken-ingredients-header {
+  display: flex;  
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1rem;
+  gap: 1em;
+  margin: 0.5rem;
+  background-color: #002e63;
+  color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+
+}
+.chicken-ingredients-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f8f8;
+  border: #e0e0e0 solid 1px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.chicken-directions-header {
+  display: flex;  
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1rem;
+  gap: 1em;
+  margin: 0.5rem;
+  background-color: #002e63;
+  color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+.chicken-directions-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f8f8;
+  border: #e0e0e0 solid 1px;
+  margin: 10px;
+  border-radius: 8px;
+}
+.chicken-step-label {
+  font-weight: 800;
+}
+.chicken-footer {
+  display: flex;
+  padding: 20px;
+  background-color: #002e63;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
