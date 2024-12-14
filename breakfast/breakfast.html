@@ -4,17 +4,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Breakfast Recipe</title>
-
+  <link rel="stylesheet" href="/style.css">
 </head>
 <body>
   <header class="breakfast-main">
     <h1 class="breakfast-main-header">Breakfast Recipes</h1>
-    <nav class="breakfast">
-      <a href="/breakfast/quiche.html">Quiche Loraine</a>
-      <a href="/breakfast/scrambledeggs.html">Scrambled Eggs</a>
-      <a href="/breakfast/waffles.html">Waffles</a>
+    <nav id="breakfast-nav">
+      <a href="/index.html">Home</a>
+      <a href="/lunch/lunch.html">Lunch</a>
+      <a href="/dinner/dinner.html">Dinner</a>
     </nav>
   </header>
-  
+  <section class="breakfast-recipes-section">
+    <h3  class="breakfast-recipes-header" > Best Breakfast Recipes</h3>
+    <p>With these recipes, you are sure to impress anyone you make them for!</p>
+  </section>
+  <section class="breakfast-recipes-container">
+      <div class="breakfast-card">
+        <h3>Quiche Recipe</h3>
+        <div class="breakfast-card-image">
+          <img src="/images/quiche1.jpg" alt="image of a quiche" height="300px" width="300px">
+          <button class="button">
+            <a href ="/breakfast/quiche.html">Quiche Recipe</a>
+          </button>
+        </div>
+        <div class="breakfast-card">
+          <h3>Scrambled Eggs Recipe</h3>
+          <div class="breakfast-card-image">
+            <img src="/images/scrambledeggs.jpg" alt="image of a scrambled eggs" height="300px" width="300px">
+            <button class="button">
+              <a href ="/breakfast/scrambledeggs.html">Click here for recipe</a>
+            </button>
+          </div>
+          <div class="breakfast-card">
+            <h3>Waffle recipe</h3>
+            <div class="breakfast-card-image">
+              <img src="/images/waffles.jpg" alt="image of a waffles" height="300px" width="300px">
+              <button class="button">
+                <a href ="/breakfast/waffles.html">Click for recipe</a>
+              </button>
+            </div>
+  </section>
+  <footer class="breakfast-page-footer">
+    Flexbox Practice 2024. 
+  </footer>
 </body>
 </html>

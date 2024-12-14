@@ -115,7 +115,20 @@ h1{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
+.quiche-direction-container {
+  display: flexbox;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f8f8;
+  border: 1px solid #e0e0e0e0;
+  overflow-wrap: break-word;
+  border-radius: 8px;
+}
+.direction-label {
+  font-weight: 800;
+}
 
 /* Scrambled Eggs CSS*/
 
