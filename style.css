@@ -78,7 +78,7 @@ ALL OF THIS CODE IS FROM CHATGPT. ASKED QUESTION ON 11/19/2024. Wanted to learn 
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 1.4rem;
+  padding: 1.2rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #097968;
   color: whitesmoke;
@@ -89,26 +89,76 @@ ALL OF THIS CODE IS FROM CHATGPT. ASKED QUESTION ON 11/19/2024. Wanted to learn 
   padding: 10px;
 }
 
+/* This code is from chat gpt */
 .breakfast-recipes-section {
-  display: flex;
-  flex-direction: column;
+  display: flexbox;
+  flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .breakfast-recipes-container {
-  display: flexbox;
+  display: flex;
   gap: 1rem;
-  align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   padding: 2rem;
+  max-width: 1200px;
   margin: 0 auto;
+  background-color: whitesmoke;
+  box-shadow: #e0e0e0;
 }
 .breakfast-card {
-  background-color: white;
+  background-color: whitesmoke;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  width: 300px;
+}
+.breakfast-recipes-section {
+  display: flexbox;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.3rem;
+  padding: 0.5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  background-color: #097968;
+}
+.button {
+  padding: 0.5rem;
+  background: #097968;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.breakfast-card-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0.8rem;
+  width: 300px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  background-color: #097968;
+  
+}
+a  {
+  color: white;
+  text-decoration: none;
+}
+
+.breakfast-page-footer {
+  padding: 1.5rem;
+  background-color: #097968;
+  color: whitesmoke;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
-.breakfast-card-image {
 
 
-}
+/* Lunch Page CSS */
+
+
