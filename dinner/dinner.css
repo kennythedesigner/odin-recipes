@@ -1,0 +1,384 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Alfredo CSS */
+
+
+.alfredo-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: 	#5218fa;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.alfredo-image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.alfredo-image-container .alfredo-image-content {
+  height: 500px;
+  width: 550px;
+}
+.alfredo-hero-container {
+  display: flexbox;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: 	#5218fa;
+  color: white;
+  margin-left: 2px;
+  border-radius: 5px;
+}
+.alfredo-hero-blurb {
+  width: 650px;
+}
+
+.alfredo-prep-content {
+  display: flex;
+  justify-content: space-evenly; /* Match waffle section */
+  align-items: flex-start; /* Ensure top alignment */
+  gap: 1em; /* Add consistent spacing between items */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2rem; /* Same padding as waffle */
+  background-color: #f8f8f8;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin: 1rem;
+}
+
+.alfredo-prep-container .alfredo-prep-item {
+  display: flex;
+  justify-content: space-between; /* Spread labels and values */
+  align-items: center; /* Align vertically */
+}
+
+.alfredo-ingredients-header {
+  display: flex;  
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1rem;
+  gap: 1em;
+  margin: 0.5rem;
+  background-color: 	#5218fa;
+  color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+
+}
+.alfredo-ingredients-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f8f8;
+  border: #e0e0e0 solid 1px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.alfredo-directions-header {
+  display: flex;  
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1rem;
+  gap: 1em;
+  margin: 0.5rem;
+  background-color: 	#5218fa;
+  color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+.alfredo-directions-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f8f8;
+  border: #e0e0e0 solid 1px;
+  margin: 10px;
+  border-radius: 8px;
+}
+.alfredo-step-label {
+  font-weight: 800;
+}
+.alfredo-footer {
+  display: flex;
+  padding: 20px;
+  background-color: 	#5218fa;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Carbonara CSS */
+
+
+.carbonara-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: 	#5218fa;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.carbonara-image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.carbonara-image-container .carbonara-image-content {
+  height: 500px;
+  width: 550px;
+}
+.carbonara-hero-container {
+  display: flexbox;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: 	#5218fa;
+  color: white;
+  margin-left: 2px;
+  border-radius: 5px;
+}
+.carbonara-hero-blurb {
+  width: 650px;
+}
+
+.carbonara-prep-content {
+  display: flex;
+  justify-content: space-evenly; /* Match waffle section */
+  align-items: flex-start; /* Ensure top alignment */
+  gap: 1em; /* Add consistent spacing between items */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2rem; /* Same padding as waffle */
+  background-color: #f8f8f8;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin: 1rem;
+}
+
+.carbonara-prep-container .carbonara-prep-item {
+  display: flex;
+  justify-content: space-between; /* Spread labels and values */
+  align-items: center; /* Align vertically */
+}
+
+.carbonara-ingredients-header {
+  display: flex;  
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1rem;
+  gap: 1em;
+  margin: 0.5rem;
+  background-color: 	#5218fa;
+  color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+
+}
+.carbonara-ingredients-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f8f8;
+  border: #e0e0e0 solid 1px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.carbonara-directions-header {
+  display: flex;  
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1rem;
+  gap: 1em;
+  margin: 0.5rem;
+  background-color: 	#5218fa;
+  color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+.carbonara-directions-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f8f8;
+  border: #e0e0e0 solid 1px;
+  margin: 10px;
+  border-radius: 8px;
+}
+.carbonara-step-label {
+  font-weight: 800;
+}
+.carbonara-footer {
+  display: flex;
+  padding: 20px;
+  background-color: 	#5218fa;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Ribeye Steak */
+
+.steak-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: 	#5218fa;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.steak-image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.steak-image-container .steak-image-content {
+  height: 500px;
+  width: 550px;
+}
+.steak-hero-container {
+  display: flexbox;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: 	#5218fa;
+  color: white;
+  margin-left: 2px;
+  border-radius: 5px;
+}
+.steak-hero-blurb {
+  width: 650px;
+}
+
+.steak-prep-content {
+  display: flex;
+  justify-content: space-evenly; /* Match waffle section */
+  align-items: flex-start; /* Ensure top alignment */
+  gap: 1em; /* Add consistent spacing between items */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2rem; /* Same padding as waffle */
+  background-color: #f8f8f8;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin: 1rem;
+}
+
+.steak-prep-container .steak-prep-item {
+  display: flex;
+  justify-content: space-between; /* Spread labels and values */
+  align-items: center; /* Align vertically */
+}
+
+.steak-ingredients-header {
+  display: flex;  
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1rem;
+  gap: 1em;
+  margin: 0.5rem;
+  background-color: 	#5218fa;
+  color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+
+}
+.steak-ingredients-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f8f8;
+  border: #e0e0e0 solid 1px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.steak-directions-header {
+  display: flex;  
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1rem;
+  gap: 1em;
+  margin: 0.5rem;
+  background-color: 	#5218fa;
+  color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+.steak-directions-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f8f8;
+  border: #e0e0e0 solid 1px;
+  margin: 10px;
+  border-radius: 8px;
+}
+.steak-step-label {
+  font-weight: 800;
+}
+.steak-footer {
+  display: flex;
+  padding: 20px;
+  background-color: 	#5218fa;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
